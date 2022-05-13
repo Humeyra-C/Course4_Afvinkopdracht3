@@ -12,6 +12,7 @@ try:
                 password='Aa644370!',
                 db='blok3')
 except Exception as e:
+    print("Caught exception: ", e)
     success = False
 else:
     success = True

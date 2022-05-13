@@ -5,7 +5,6 @@ Content: BIN-1a OWE4 Afvinkopdracht 3B
 """
 from flask import Flask
 import mysql_connect as db
-import mysql.connector as sql
 
 app = Flask(__name__)
 
