@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Homepage studentendatase</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<h1>Welkom bij de studentendatabase!</h1>
+<form method="post" name="searchbar">
+    <input type="search" id="search" name="zoeken" placeholder="Search...">
+    <input type="submit" name="knop" value="Zoeken">
+    <input type="submit" name="knop" value="Wis filter">
+</form>
+<table>
+{% for item in studenten %}
+<tr>
+    {% for col in item %}
+        <td>{{col}}</td>
+    {% endfor %}
+</tr>
+{% endfor %}
+</table>
+</body>
+</html>

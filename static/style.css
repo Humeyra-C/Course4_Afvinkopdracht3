@@ -1,0 +1,23 @@
+
+body {
+    background-color: aquamarine;
+}
+
+input {
+    margin: 10px;
+}
+
+label {
+    margin: 10px;
+}
+
+#err {
+    color: red;
+    font-weight: bold;
+}
+
+table, th, td {
+    border: 1px solid;
+    border-collapse: collapse;
+    padding: 5px;
+}

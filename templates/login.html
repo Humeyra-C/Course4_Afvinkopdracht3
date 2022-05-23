@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Inlogpagina Studentendatabase</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+    <h1>Studentendatabase Bio-Informatica</h1>
+
+    <p>Je bent nog niet ingelogd in de studentendatabase. Log hieronder in.</p><br>
+    <p id="err">{{ error }}</p>
+    <form method="post" name="login">
+        <label for="user">Gebruiksnaam:</label><br>
+        <input type="text" id="user" name="Gebruiksnaam"><br>
+        <label for="pass">Wachtwoord:</label><br>
+        <input type="password" id="pass" name="Wachtwoord"><br>
+        <input type="submit" value="Inloggen">
+    </form>
+
+</body>
+</html>
